@@ -1,0 +1,102 @@
+<mjml>
+  <mj-head>
+    <mj-title>Discount Light</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .text-link {
+        color: #be9c79
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+        color: #be9c79
+      }
+    </mj-style>
+    <mj-style>
+      .op5 {
+        opacity: 0.5;
+      }
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section background-color="#be9c79">
+      <mj-column>
+        <mj-image src="https://cdn.discordapp.com/attachments/1049321321479291004/1078666677308379146/logo-removebg-preview_black.png" alt="logo de la marque" align="center" width="150px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-text color="black" align="center" font-weight="500" font-size="13px" padding-top="0" letter-spacing="1px" line-height="20px">
+          Dernière chance de participer au concours mensuel
+        </mj-text>
+        <mj-divider border-width="5px" border-style="solid" border-color="#be9c79" width="80%" padding="30px" />
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Bonjour {{nom}},
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px" >
+            Nous espérons que vous allez bien et que vous avez eu l'occasion de profiter des ressources de la médiathèque Litopia.<br><br> Nous tenons à vous rappeler que notre concours mensuel est toujours en cours et que la date limite de soumission approche rapidement. Si vous n'avez pas encore soumis votre création, c'est le moment idéal pour le faire !
+
+Rappelez-vous que le thème du concours du mois en cours est {{insérer le thème}}. Nous avons déjà reçu de nombreuses créations incroyables et nous sommes impatients de découvrir les vôtres. Vous pourriez être l'un des heureux gagnants et avoir votre travail exposé dans notre médiathèque.
+          <br><br>
+          N'oubliez pas, la date limite de soumission est le {{date de clôture du concours}} ! Nous sommes impatients de découvrir vos créations et de les partager avec la communauté de la médiathèque.
+          </mj-text>
+
+
+          <mj-button background-color="#be9c79" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://azntufu.github.io/Litopia/" width="300px">
+			Participer au concours
+          </mj-button>
+          <mj-text color="#637381" font-size="16px" padding-top="30px">
+            Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à profiter pleinement de notre service d'abonnement e-book.
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px" padding-top="30px">
+
+            Bien cordialement,
+            <br />L'équipe de la médiathèque
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="100%">
+          <mj-divider border-width="5px" border-style="solid" border-color="#be9c79" width="80%" padding="30px" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#be9c79">
+      <mj-section>
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="google" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+          </mj-social>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            &copy; Copyright 2023 By Litopia | All Rights Reserved
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

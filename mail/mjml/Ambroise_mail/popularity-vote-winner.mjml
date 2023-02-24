@@ -1,0 +1,102 @@
+  <mjml>
+  <mj-head>
+    <mj-title>Le livre gagnant du concours de popularité</mj-title>
+    <mj-preview>La révélation du livre préféré des lecteurs</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .text-link {
+      color: #be9c79
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+      color: #be9c79
+      }
+    </mj-style>
+    <mj-style>
+      .op5 {opacity:0.5;}
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+    <mj-section background-color="#be9c79">
+      <mj-column>
+        <mj-image src="https://cdn.discordapp.com/attachments/1049321321479291004/1078666677308379146/logo-removebg-preview_black.png" alt="logo de la marque" align="center" width="150px" />
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="white">
+      <mj-column width="100%">
+        <mj-text color="black" align="center" font-weight="500" font-size="13px" padding-top="0" letter-spacing="1px" line-height="20px">
+          La révélation du livre préféré des lecteurs
+        </mj-text>
+        <mj-divider border-width="5px" border-style="solid" border-color="#be9c79" width="80%" padding="30px"/>
+      </mj-column>
+    </mj-section>
+
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Bonjour {{nom}},
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px">
+            Nous avons le plaisir de vous annoncer que le livre gagnant du concours de popularité de notre service de lecture en ligne est enfin révélé !
+          </mj-text>
+
+          <mj-text font-size="16px" color="#637381">
+            Le livre gagnant est :
+          </mj-text>
+          <mj-image align="center" src="https://images-na.ssl-images-amazon.com/images/I/81MW-miJAhL._SY355_.jpg" alt="" />
+          <mj-table>
+            <tr style="border-bottom:1px solid #ecedee;text-align:left;">
+              <th style="padding: 10px;">Titre</th>
+              <th style="padding: 10px;">Auteur</th>
+              <th style="padding: 10px;">Genre</th>
+            </tr>
+            <tr style="border-bottom:1px solid #ecedee;text-align:left;">
+              <td style="padding: 10px;">{{ book.title }}</td>
+              <td style="padding: 10px;">{{ book.author }}</td>
+              <td style="padding: 10px;">{{ book.category }}</td>
+            </tr>
+          </mj-table>
+        <mj-button background-color="#be9c79" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://azntufu.github.io/Litopia/" width="300px">
+            Lisez-le vite ici
+        </mj-button>
+        <mj-text color="#637381" font-size="16px" padding-bottom="30px">
+          Ce livre a été choisi par nos lecteurs du mois dernier. Ne manquez pas le prochain vote.
+        </mj-text>
+
+        <mj-text color="#637381" font-size="16px" padding-top="30px">
+
+          Bien cordialement,
+          <br/>L'équipe de la médiathèque
+        </mj-text>
+      </mj-column>
+    </mj-wrapper>
+  </mj-section>
+    <mj-wrapper full-width="full-width" background-color="#be9c79">
+      <mj-section >
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="google" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+          </mj-social>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            &copy;  Copyright 2023 By Litopia | All Rights Reserved
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
+
+
