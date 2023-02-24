@@ -99,7 +99,7 @@
 
       <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
         <mj-column>
-          <mj-button background-color="#be9c79" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://azntufu.github.io/Litopia/selection">Mes recommandés</mj-button>
+          <mj-button background-color="#be9c79" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://azntufu.github.io/Litopia/selection?utm_source=newsletter&utm_medium=email&utm_campaign=selection">Mes recommandés</mj-button>
 
           <mj-button background-color="#be9c79" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://azntufu.github.io/Litopia/index.html/rate-us">Notre sélection vous a-t-elle convenue ?</mj-button>
         </mj-column>
