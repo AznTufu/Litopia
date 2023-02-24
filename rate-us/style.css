@@ -567,31 +567,7 @@ section {
     border: solid #666;
 }
 
-.rating form input[id="note1"]:checked + label[for="note1"] {
-    background: #be9c79;
-    color: #fff;
-    border: none;
-}
-
-.rating form input[id="note2"]:checked + label[for="note2"] {
-    background: #be9c79;
-    color: #fff;
-    border: none;
-}
-
-.rating form input[id="note3"]:checked + label[for="note3"] {
-    background: #be9c79;
-    color: #fff;
-    border: none;
-}
-
-.rating form input[id="note4"]:checked + label[for="note4"] {
-    background: #be9c79;
-    color: #fff;
-    border: none;
-}
-
-.rating form input[id="note5"]:checked + label[for="note5"] {
+.rating form input:checked + label {
     background: #be9c79;
     color: #fff;
     border: none;
