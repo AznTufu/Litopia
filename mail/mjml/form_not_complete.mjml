@@ -1,0 +1,97 @@
+<mjml>
+  <mj-head>
+    <mj-title>Discount Light</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .text-link {
+      color: #be9c79
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+      color: #be9c79
+      }
+    </mj-style>
+    <mj-style>
+      .op5 {opacity:0.5;}
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+      <mj-section background-color="#be9c79">
+        <mj-column>
+          <mj-image src="https://cdn.discordapp.com/attachments/1049321321479291004/1078666677308379146/logo-removebg-preview_black.png" alt="logo de la marque" align="center" width="150px" />
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="white">
+        <mj-column width="100%">
+          <mj-text color="black" align="center" font-weight="500" font-size="13px" padding-top="0" letter-spacing="1px" line-height="20px">
+            Vous n'avez pas terminer de remplir votre formulaire d'inscription !
+          </mj-text>
+          <mj-divider border-width="5px" border-style="solid" border-color="#be9c79" width="80%" padding="30px"/>
+        </mj-column>
+      </mj-section>
+
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Bonjour,
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px">
+            Nous avons remarqué que vous avez commencé à remplir un formulaire d'inscription sur notre site web, mais vous ne l'avez pas encore soumis. Nous souhaiterions vous rappeler que vous pouvez bénéficier de nombreux avantages en vous inscrivant sur notre site.
+          </mj-text>
+
+          <mj-text font-size="16px" color="#637381">
+            Notre site vous permettra de profiter de fonctionnalités exclusives, notamment l'accès à des offres spéciales, des promotions, ainsi qu'à des contenus exclusifs. Vous pourrez également recevoir des informations sur nos derniers produits et services, ainsi que des conseils personnalisés.
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px" padding-bottom="30px">
+            Si vous avez besoin d'aide pour remplir le formulaire ou si vous avez des questions, n'hésitez pas à nous contacter. Nous sommes là pour vous aider à chaque étape de l'inscription.          </mj-text>
+          <mj-button background-color="#be9c79" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://azntufu.github.io/Litopia/#contact" width="300px">
+            Terminer de remplir le formualire ici
+          </mj-button>
+          <mj-text color="#637381" font-size="16px" padding-top="30px">
+            Nous espérons que vous choisirez de nous rejoindre bientôt et que vous profiterez de tous les avantages de notre site.
+            Bien cordialement,
+            <br/>L'équipe de la médiathèque
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+      </mj-section>
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="100%">
+          <mj-divider border-width="5px" border-style="solid" border-color="#be9c79" width="80%" padding="30px"/>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width" background-color="#be9c79">
+      <mj-section >
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="google" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+          </mj-social>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            &copy;  Copyright 2023 By Litopia | All Rights Reserved
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>

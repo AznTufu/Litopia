@@ -1,0 +1,126 @@
+<mjml>
+  <mj-head>
+    <mj-title>Discount Light</mj-title>
+    <mj-preview>Pre-header Text</mj-preview>
+    <mj-attributes>
+      <mj-all font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-all>
+      <mj-text font-weight="400" font-size="16px" color="#000000" line-height="24px" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-style inline="inline">
+      .text-link {
+      color: #be9c79
+      }
+    </mj-style>
+    <mj-style inline="inline">
+      .footer-link {
+      color: #be9c79
+      }
+    </mj-style>
+    <mj-style>
+      .op5 {opacity:0.5;}
+    </mj-style>
+
+  </mj-head>
+  <mj-body background-color="#E7E7E7" width="600px">
+      <mj-section background-color="#be9c79">
+        <mj-column>
+          <mj-image src="https://cdn.discordapp.com/attachments/1049321321479291004/1078666677308379146/logo-removebg-preview_black.png" alt="logo de la marque" align="center" width="150px" />
+        </mj-column>
+      </mj-section>
+      
+      <mj-section background-color="white">
+        <mj-column width="100%">
+          <mj-text color="black" align="center" font-weight="500" font-size="13px" padding-top="0" letter-spacing="1px" line-height="20px">
+            Votre ville se transforme !
+          <br />
+          Découvrer notre offre digitale d'e-book
+          </mj-text>
+          <mj-divider border-width="5px" border-style="solid" border-color="#be9c79" width="80%" padding="30px"/>
+          <mj-image src="https://mediatheques.valparisis.fr/images/Administration/Pratique/9_mediatheques/thumbnails/MED_SAINT_LEU_400X300.jpg" width="500px" alt="" align="center"/>
+        </mj-column>
+      </mj-section>
+
+    <mj-wrapper padding-top="0" padding-bottom="0" css-class="body-section">
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px">
+        <mj-column width="100%">
+          <mj-text color="#637381" font-size="16px">
+            Chers membres de la médiathèque,
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px">
+            Nous avons le plaisir de vous annoncer que nous avons récemment lancé notre service d'abonnement e-book en ligne ! Désormais, vous pouvez accéder à une large sélection de livres électroniques et les emprunter depuis le confort de votre propre maison. 
+          </mj-text>
+
+          <mj-image align="center" src="https://standardebooks.org/images/devices@2x.png" alt="" />
+
+          <mj-text font-size="16px" color="#637381">
+            Notre catalogue numérique est constamment mis à jour pour vous proposer les dernières nouveautés littéraires ainsi que des classiques incontournables. Avec notre service d'abonnement e-book, vous pouvez :          </mj-text>
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px">
+            <ul>
+              <li style="padding-bottom: 20px">Emprunter jusqu'à 5 livres électroniques à la fois</li>
+              <li style="padding-bottom: 20px">Choisir parmi des milliers de livres numériques dans notre catalogue</li>
+              <li style="padding-bottom: 20px">Télécharger des livres directement sur votre tablette, smartphone ou liseuse</li>
+              <li>Profiter de vos livres empruntés pendant 3 semaines</li>
+            </ul>
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px" padding-bottom="30px">
+            Pour accéder à notre service d'abonnement e-book, rien de plus simple ! Il vous suffit de vous connecter à notre site web, de sélectionner les livres que vous souhaitez emprunter, et de les télécharger directement sur votre appareil. Vous pouvez également gérer vos emprunts en ligne, prolonger la durée de prêt et réserver des livres déjà empruntés par d'autres membres.
+          </mj-text>
+          <mj-button background-color="#be9c79" align="center" color="#ffffff" font-size="17px" font-weight="bold" href="https://azntufu.github.io/Litopia/" width="300px">
+            Accéder a notre site ici
+          </mj-button>
+          <mj-text color="#637381" font-size="16px" padding-top="30px">
+            Nous espérons que notre nouveau service d'abonnement e-book vous plaira et que vous en profiterez pleinement. Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter.
+
+            Bien cordialement,
+            <br/>L'équipe de la médiathèque
+          </mj-text>
+
+          <mj-text color="#637381" font-size="16px" padding-top="30px">
+
+             Bien cordialement,
+            <br/>L'équipe de la médiathèque
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="50%">
+          <mj-image align="center" src="https://www.solidarite-numerique.fr/wp-content/uploads/2021/05/Ebooks-livres-numeriques.jpg" alt="" />
+        </mj-column>
+        <mj-column width="50%">
+          <mj-image align="center" src="https://eodopen.eu/assets/news/news-7.jpg" alt="" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#ffffff" padding-left="15px" padding-right="15px" padding-top="0">
+        <mj-column width="100%">
+          <mj-divider border-width="5px" border-style="solid" border-color="#be9c79" width="80%" padding="30px"/>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper full-width="full-width" background-color="#be9c79">
+      <mj-section >
+        <mj-column width="100%" padding="0">
+          <mj-social font-size="15px" icon-size="30px" mode="horizontal" padding="0" align="center">
+            <mj-social-element name="facebook" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="google" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="twitter" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+            <mj-social-element name="linkedin" href="https://mjml.io/" background-color="#be9c79">
+            </mj-social-element>
+          </mj-social>
+          <mj-text color="#445566" font-size="11px" align="center" line-height="16px">
+            &copy;  Copyright 2023 By Litopia | All Rights Reserved
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
